@@ -1,6 +1,5 @@
 body {
-    background: rgb(18,48,194);
-    background: radial-gradient(circle, rgba(18,48,194,1) 0%, rgba(0,0,0,1) 100%);
+    background-image: url(https://wallpaper.dog/large/5472313.jpg);
 }
 
 #carouselExampleIndicators{
@@ -10,11 +9,12 @@ body {
 }
 
 .contenedor{
-    width: 97%;
-    background-color: #ffffff;
+    width: 90%;
+    background-color: #333;
     border: 5px solid rgb(108, 0, 248);
     margin: 20px auto;
-    height: 700px;
+    height: 1000px;
+    color: white;
 }
 #articulo{
     width: 90%;
@@ -24,13 +24,44 @@ body {
 .textoarticulo{
     margin: 2% 2% 0 2%;
 }
-
-
+.container{
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+.imagen{
+    width: 200px;
+    margin: 5px;
+}
+.imagen img{
+    width: 100%;
+}
+.arcadesistema{
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+}
+.sistema{
+    width: 100px;
+    margin: 100px;
+}
+.sistema img{
+    width: 100px;
+}
 footer{
     height: 150px;
     background: rgb(0, 0, 0);
     text-align: left;
     color: white;
+}
+.contenidoarcade{
+    width: 90%;
+    color: white;
+    background-color: #333;
+    border: 5px solid rgb(108, 0, 248);
+    margin: 20px auto;
+    height: 1500px;
 }
 .pfooter{
     color: white;
